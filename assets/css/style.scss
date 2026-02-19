@@ -1,0 +1,15 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Hide the big top title/header */
+.project-name,
+.project-tagline {
+  display: none !important;
+}
+
+/* Optional: reduce empty header space */
+.page-header {
+  padding: 1.5rem 0 !important;
+}
