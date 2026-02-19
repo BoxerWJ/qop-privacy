@@ -3,13 +3,13 @@
 
 @import "{{ site.theme }}";
 
-/* Hide the big top title/header */
+/* Hide the big header title area (repo name) but keep the theme styling */
 .project-name,
 .project-tagline {
   display: none !important;
 }
 
-/* Optional: reduce empty header space */
+/* Reduce the empty header space */
 .page-header {
   padding: 1.5rem 0 !important;
 }
